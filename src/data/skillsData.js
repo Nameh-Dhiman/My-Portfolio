@@ -3,17 +3,19 @@
    "CSS",
    "Sass",
    "Bootstrap",
-   'Tailwind',
+   "Tailwind",
    "Javascript",
    "Typescript",
    "React JS",
+   "Next JS",
    "Node JS",
    "Express JS",
-   "PostgreSQL",
+   "SQL",
    "MongoDB",
-   'Git',
-   'GitHub',
+   "Git",
+   "GitHub",
    "Photoshop",
+   "Figma",
  ];
 
 
@@ -76,6 +78,7 @@
     ViteJS
     VuetifyJS
     MySQL
+    SQL
     PostgreSQL
     AWS
     Firebase

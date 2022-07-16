@@ -22,6 +22,7 @@ import capacitorjs from '../assets/svg/skills/capacitorjs.svg'
 import coffeescript from '../assets/svg/skills/coffeescript.svg'
 import memsql from '../assets/svg/skills/memsql.svg'
 import mongoDB from '../assets/svg/skills/mongoDB.svg'
+import sql from '../assets/svg/skills/sql.svg'
 import mysql from '../assets/svg/skills/mysql.svg'
 import postgresql from '../assets/svg/skills/postgresql.svg'
 import tailwind from '../assets/svg/skills/tailwind.svg'
@@ -135,6 +136,8 @@ export const skillsImage = (skill) => {
             return mongoDB;
         case 'mysql':
             return mysql;
+        case 'sql':
+            return sql;
         case 'postgresql':
             return postgresql;
         case 'tailwind':
