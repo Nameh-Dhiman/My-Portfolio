@@ -11,6 +11,11 @@
 // import eleven from '../assets/svg/projects/eleven.svg'
 // import twelve from '../assets/svg/projects/twelve.svg'
 // import thirteen from '../assets/svg/projects/thirteen.svg'
+import legodots from '../assets/svg/projects/legodots.png'
+import kfc from '../assets/svg/projects/kfc.png'
+import urlshortner from '../assets/svg/projects/urlshortner.png'
+import pomodoro from '../assets/svg/projects/pomodoro.png'
+import excelligent from '../assets/svg/projects/excelligent.png'
 import shopbop from '../assets/svg/projects/shopbop.png'
 import flipkart from '../assets/svg/projects/flipkart.png'
 import appletv from '../assets/svg/projects/apple-tv.png'
@@ -22,16 +27,66 @@ import weather from '../assets/svg/projects/weather.png'
 export const projectsData = [
   {
     id: 1,
+    projectName: "LEGO Dots",
+    projectDesc:
+      "An individual freelancing project for one of the LEGO's Event, a full stack quiz web app. It's live LEGO Group project and will be live for the next three months i.e., Nov 2022.",
+    tags: ["Sass", "React JS", "Express JS", "NodeMailer"],
+    code: "https://github.com/Nameh-Dhiman/Lego-Dots",
+    demo: "http://youdotyou.com/",
+    image: legodots,
+  },
+  {
+    id: 2,
+    projectName: "Excelligent",
+    projectDesc:
+      "A Student and Instructor Portal with the following features, Live Student & Instructor Chat, Grades Infographics, Assignments, Productivity, and a PocketBuddy to Manage personal expenses.",
+    tags: ["Sass", "React JS", "Express JS", "SocketIO"],
+    code: "https://github.com/Nameh-Dhiman/Excelligent",
+    demo: "https://excelligent.vercel.app/",
+    image: excelligent,
+  },
+  {
+    id: 3,
+    projectName: "KFC Clone",
+    projectDesc:
+      "A full stack clone of the KFC website with functionalities, such as Authentication, Landing Page & Food Gallery, Menu, User Cart, Checkout, Payment Gateway.",
+    tags: ["Sass", "React JS", "Express JS", "MongoDB"],
+    code: "https://github.com/Nameh-Dhiman/KFC-Clone",
+    demo: "https://clone-kfc.netlify.app/",
+    image: kfc,
+  },
+  {
+    id: 4,
+    projectName: "URL Shortner",
+    projectDesc:
+      "A Fullstack URL Shortner built using React JS, Sass, Node JS, Express JS, MongoDB",
+    tags: ["Sass", "React JS", "Express JS", "MongoDB"],
+    code: "https://github.com/Nameh-Dhiman/URL-Shortner",
+    demo: "https://urlshortner-swart-seven.vercel.app/",
+    image: urlshortner,
+  },
+  {
+    id: 5,
+    projectName: "Pomodoro Timer",
+    projectDesc:
+      "Pomodoro Timer for Time Management and Focus Sessions, built using React Js, Context API and SCSS",
+    tags: ["Sass", "React JS", "Express JS", "MongoDB"],
+    code: "https://github.com/Nameh-Dhiman/Pomodoro-Timer",
+    demo: "https://pomodoro-jade.vercel.app/",
+    image: pomodoro,
+  },
+  {
+    id: 6,
     projectName: "Shopbop Clone",
     projectDesc:
       "Shopbop is a US online fashion apparel and accessories shop. This Project is a clone of the original website. It has features like Authentication, Products Gallery, Product Buying and Checkout.",
-    tags: ["React", "CSS", "React JS", "Redux JS"],
+    tags: ["CSS", "React JS", "Redux JS"],
     code: "https://github.com/Nameh-Dhiman/Shopbop-Clone-Project",
     demo: "https://shopbop-clone-project.netlify.app/",
     image: shopbop,
   },
   {
-    id: 2,
+    id: 7,
     projectName: "Flipkart Clone",
     projectDesc:
       "Flipkart is an Indian e-commerce company, headquartered in Bangalore, India. This Project is a clone of the original website. It has features like Authentication, Products Gallery, Product Pages, Product Buying and Checkout.",
@@ -41,7 +96,7 @@ export const projectsData = [
     image: flipkart,
   },
   {
-    id: 3,
+    id: 8,
     projectName: "Apple TV+ Clone",
     projectDesc:
       "Apple TV+ is an American subscription streaming service owned and operated by Apple Inc. This Project is a clone of the original website. It has features like Authentication, Shows Gallery, etc.",
@@ -51,7 +106,7 @@ export const projectsData = [
     image: appletv,
   },
   {
-    id: 4,
+    id: 9,
     projectName: "Expense Tracker",
     projectDesc:
       "A Expense Tracker App that lets you track your yearly expenses. This Project was built using HTML, CSS, JavaScript and React JS.",
@@ -61,7 +116,7 @@ export const projectsData = [
     image: expense,
   },
   {
-    id: 5,
+    id: 10,
     projectName: "Weather App",
     projectDesc:
       "A Simple weather app using HTML, CSS, JavaScript, Open Weather API and  Google Maps API.",
@@ -71,7 +126,7 @@ export const projectsData = [
     image: weather,
   },
   {
-    id: 6,
+    id: 11,
     projectName: "Movie Search App",
     projectDesc: "A Movie Search App using HTML, CSS, JavaScript and OMDb API.",
     tags: ["HTML", "CSS", "JavaScript"],
@@ -79,25 +134,6 @@ export const projectsData = [
     demo: "https://nameh-dhiman.github.io/Movie-Search-App/",
     image: moviesearch,
   },
-  //   {
-  //     id: 7,
-  //     projectName: "Stock Market App",
-  //     projectDesc: "A simple stock market API app",
-  //     tags: ["React", "Redux", "Bootstrap"],
-  //     code: "https://github.com/hhhrrrttt222111/developer-portfolio",
-  //     demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
-  //     image: seven,
-  //   },
-  //   {
-  //     id: 8,
-  //     projectName: "Car Pooling System",
-  //     projectDesc:
-  //       "The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution",
-  //     tags: ["Flutter", "React"],
-  //     code: "https://github.com/hhhrrrttt222111/developer-portfolio",
-  //     demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
-  //     image: eight,
-  //   },
 ];
 
 
